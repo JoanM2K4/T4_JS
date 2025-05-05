@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php include("../base/menu.html"); ?>
 
     <div class="card h-100"><!--Titulo de la aplicación-->
-        <h1 class="card-header">Cálculo de reices racionales </h1>
+        <h1 class="card-header">Cálculo de raíces racionales </h1>
 
         <div class="container mt-5">
             <h2 class="text-center">Calculadora de Ecuación Cuadrática</h2>
