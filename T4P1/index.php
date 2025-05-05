@@ -19,7 +19,7 @@
 </head>
 <body>
     <div><!--Inicia contenedor principal-->
-        <?php include("menuP1.php") ?>
+        <?php include("../base/menu.php") ?>
         <main class="mt-5"> <!--etiqueta para utilizar un archivo de estilos y aplicarlos a todos los elementos de la clase-->
             
             <div class="row fila"><!--Inicia row-->

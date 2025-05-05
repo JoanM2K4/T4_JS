@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
     <title>Programa 4 - Trigonometría</title>
 

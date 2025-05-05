@@ -8,7 +8,7 @@
 </head>
 <body class="body-custom">
     <div class="container-custom"><!-- Inicia contenedor principal -->
-        <?php include("menuP2.php"); ?>
+    <?php include("../base/menu.php") ?>
 
         <div class="holy-grail-body">
             <section class="holy-grail-content">
