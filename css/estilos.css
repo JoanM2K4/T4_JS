@@ -36,6 +36,20 @@ font-weight: bold;
 
 }
 
+.navbar-nav{
+  float: none !important;
+}
+.navbar-nav ms-auto{
+  width: 100% !important;
+}
+.nav-item{
+  padding-right: 2%;
+}
+
+#navbarResponsive{
+  padding-top: 1%;
+}
+
 h1{
 	text-align: center;
 }
@@ -151,6 +165,11 @@ h1{
   text-align: center;
 }
 
+
+ul {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+}
 
 
 /* Estilos para el botón de calcular */
