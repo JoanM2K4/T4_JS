@@ -9,8 +9,7 @@
 
     <link rel="stylesheet" href="../css/boostrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../styles/estilos.css">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <style type="text/css">
         .cont{

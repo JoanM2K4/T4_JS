@@ -1,0 +1,73 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6eaff; /* Color de fondo más definido */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del título principal */
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Estilo general del formulario */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para el campo de entrada numérica */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Efecto hover para el botón */
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo del subtítulo de resultados */
+h3 {
+    text-align: center;
+    color: #27ae60;
+}
+
+/* Estilo del contenedor de resultados */
+.resultados {
+    background-color: #eafaf1;
+    border-left: 5px solid #27ae60;
+    padding: 15px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
