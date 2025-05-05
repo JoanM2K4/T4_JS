@@ -19,7 +19,7 @@
 </head>
 <body>
     <div><!--Inicia contenedor principal-->
-        <?php include("../base/menu.php") ?>
+        <?php include("../base/menu.html") ?>
         <main class="mt-5"> <!--etiqueta para utilizar un archivo de estilos y aplicarlos a todos los elementos de la clase-->
             
             <div class="row fila"><!--Inicia row-->
@@ -28,6 +28,9 @@
                     
                     <div class="card h-100"><!--inicio div para card-->
                         <h1 class="card-header">Elementos Básicos de la programación en PHP_Salida de datos</h1>
+                    </div><!--fin div para card-->
+                    <div class="card h-100"><!--inicio div para card-->
+                        <h1 class="card-header">Operaciones con PHP</h1>
                     </div><!--fin div para card-->
                     <div><!--Inicio div para insertar formularios y código PHP-->
 

@@ -1,4 +1,3 @@
-form4.php
 <!-- Formulario para ingresar un ángulo en grados -->
 <form method="post"> <!-- El método POST se usa para enviar datos al servidor -->
     

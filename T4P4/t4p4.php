@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Programa 4 - Trigonometría</title>
 
@@ -9,12 +10,12 @@
 
 <body>
 
-    <!-- Título de la aplicación -->
-    <h2>Cálculo trigonométrico de un ángulo</h2>
-
     <!-- Inclusión del menú -->
     <?php include("../base/menu.html"); ?>
 
+    <div class="card h-100"><!--Titulo de la aplicación-->
+        <h1 class="card-header">Cálculo trigonométrico de un ángulo</h1>
+    </div><!--Titulo de la aplicación-->
     <!-- Inclusión del formulario para ingresar el ángulo -->
     <?php include("form4.php"); ?>
 

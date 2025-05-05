@@ -8,8 +8,12 @@
 </head>
 <body class="body-custom">
     <div class="container-custom"><!-- Inicia contenedor principal -->
-    <?php include("../base/menu.php") ?>
+    <?php include("../base/menu.html") ?>
 
+    <div class="card h-100"><!--Titulo de la aplicación-->
+        <h1 class="card-header">Cálculo trigonométrico de un ángulo</h1>
+    </div><!--Titulo de la aplicación-->
+    
         <div class="holy-grail-body">
             <section class="holy-grail-content">
                 <?php include("form2.php"); ?>
