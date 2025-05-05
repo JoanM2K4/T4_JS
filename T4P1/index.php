@@ -14,6 +14,7 @@
     <style type="text/css">
         .cont{
             display: inline-flex;
+            gap: 60px;
         }
     </style>
 </head>

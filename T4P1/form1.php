@@ -13,7 +13,7 @@ echo '
         gap: 30px; /* Espacio más controlado entre los dos lados */
         padding: 10px;
         max-width: 800px; /* Limita el ancho total para evitar exceso de espacio */
-        margin: 0; /* Centra el formulario horizontalmente */
+        margin-left: 0; /* Centra el formulario horizontalmente */
     }
 
     .form-left, .form-right {
