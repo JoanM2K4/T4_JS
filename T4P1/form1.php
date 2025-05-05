@@ -1,8 +1,8 @@
 <?php
 // Captura de datos del formulario
-$num1 = $_POST["num1"];
-$num2 = $_POST["num2"];
-$op = $_POST["operacion"];
+@$num1 = $_POST["num1"];
+@$num2 = $_POST["num2"];
+@$op = $_POST["operacion"];
 
 // Inicia el formulario
 echo '

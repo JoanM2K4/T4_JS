@@ -7,10 +7,10 @@
     
     <!--boostrap css-->
 
-    <link rel="stylesheet" href="./css/boostrap.min.css">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./styles/estilos.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../css/boostrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="stylesheet" href="../styles/style.css">
 
     <style type="text/css">
         .cont{
@@ -20,10 +20,10 @@
 </head>
 <body>
     <div><!--Inicia contenedor principal-->
-        <?php include("./Componentes/menu.html") ?>
+        <?php include("../base/menu.html") ?>
         <main class="mt-5"> <!--etiqueta para utilizar un archivo de estilos y aplicarlos a todos los elementos de la clase-->
             
-            <di?v class="row fila"><!--Inicia row-->
+            <div class="row fila"><!--Inicia row-->
                 
                 <div class="col-md-12"> <!--inicia columna de 12-->
                     
@@ -54,7 +54,7 @@
             
         </main>
     </div><!--finaliza contenedor principal-->
-    <?php include("base/footer.html") ?>
+    <?php include("../base/footer.html") ?>
 
 </body>
 </html>

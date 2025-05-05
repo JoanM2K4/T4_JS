@@ -1,0 +1,88 @@
+
+.container-custom {
+    padding: 20px;
+}
+
+/* Resultado card */
+.resultado-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.custom-card {
+    background-color: #ffffff;
+    border: 2px solid #fd7d0d;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 25rem;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.02);
+}
+
+.custom-header {
+    background-color: #fd390d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-text {
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+/* Animación suave */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.custom-card {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form-custom {
+    background-color: #ffffffcc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Inputs */
+.custom-input {
+    border-radius: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 6px rgba(13, 110, 253, 0.5);
+    outline: none;
+}
+
+/* Botones */
+.custom-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+    transform: scale(1.03);
+}
+
+.btn-outline-secondary.custom-btn:hover {
+    background-color: #6c757d;
+    color: white;
+}
