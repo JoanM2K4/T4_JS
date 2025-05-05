@@ -9,7 +9,7 @@
 </head>
 <body class="body-custom">
     <div class="container-custom"><!-- Inicia contenedor principal -->
-        <?php include("../base/menu.html"); ?>
+        <?php include("menuP2.php"); ?>
 
         <div class="holy-grail-body">
             <section class="holy-grail-content">
