@@ -86,3 +86,9 @@
     background-color: #6c757d;
     color: white;
 }
+
+#holy{
+    display: flexbox!important;
+    justify-content: center !important;
+    align-items: center !important;
+}

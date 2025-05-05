@@ -6,6 +6,7 @@
 
     <!-- Enlace al archivo de estilos personalizado para este formulario -->
     <link rel="stylesheet" href="../css/form4estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
 <body>
