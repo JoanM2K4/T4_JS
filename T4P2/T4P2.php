@@ -13,7 +13,7 @@
         <?php include("../base/menu.html") ?>
 
         <div class="card h-100"><!--Titulo de la aplicación-->
-            <h1 class="card-header">Cálculo trigonométrico de un ángulo</h1>
+            <h1 class="card-header">Cálculo de Sueldo Neto</h1>
         </div><!--Titulo de la aplicación-->
         <div class="container">
             <div class="holy-grail-body">
